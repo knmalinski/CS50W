@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Basic Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      
     </head>
     <body>
-        <form action="https://www.google.com/search">
+        <div class="menu">
+            <ul>
+                <li><a href="image.html">Image</a></li>
+                <li><a href="advanced.html">Advanced</a></li>
+              </ul>
+
+        </div>
+
+        <div><h1>Basic Search</h1></div>
+
+        <div id="searchbar">
+            <form action="https://www.google.com/search">
             <input type="text" name="q">
+            <br>
             <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky">
         </form>
+        </div>
+
     </body>
 </html>
