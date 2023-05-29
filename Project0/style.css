@@ -78,7 +78,7 @@ input[type=text] {
 }
 
 input[type=submit] {
-  background-color:  #FF6059;
+  background-color:  #10193f;
   border: none;
   color: white;
   font-size: 18px;
@@ -90,7 +90,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #10193f;
+  background-color:  #FF6059;
 }
 
 
